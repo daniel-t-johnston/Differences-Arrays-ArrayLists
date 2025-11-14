@@ -4,11 +4,11 @@ The differences between arrays and ArrayLists are apparent when examining how th
 
 ## Initialization and Access
 
-**Arrays** are initialized similarly to variables of primitive data types; no extra steps are needed. Elements can be accessed directly in arrays using an index, and there are no methods; only the `length` property is available.
+**Arrays** are initialized similarly to variables of primitive data types; no extra steps are needed. Elements can be accessed directly in arrays using an index, and there are no methods; only the `.length` property is available.
 
-**ArrayLists** require the utilities package to be imported; they are not an organic part of Java and were added after the fact. When initializing a list, you are creating an object, and then adding/removing/changing elements with methods rather than accessing them directly.
+**ArrayLists** require the `java.util` package to be imported; they are not an organic part of Java and were added after the fact. When initializing a list, you are creating an object, and then adding/removing/changing elements with methods rather than accessing them directly.
 
-Methods can also be used with arrays; however, this requires the `Arrays` class, which is also part of the utilities package.
+Methods can also be used with arrays; however, this requires the `Arrays` class, which is also part of the `java.util` package.
 
 ## Data Types
 
